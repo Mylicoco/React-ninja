@@ -5,8 +5,14 @@ const Sport = () => {
           <h1 className="text-left p-3 py-6 text-2xl font-semibold">
             Recherche par sport
           </h1>
-          <div className="overflow-x-auto flex gap-2 text-left">
-            <div className="flex gap-2 ">
+          <div className=" flex gap-2 text-left py-6 scrollbar-thin scrollbar-thumb-black scrollbar-track-gray-300 overflow-x-scroll scrollbar-thumb-rounded-full  ">
+            <img src="images/7.webp" alt="" srcset="" />
+            <img src="images/7.webp" alt="" srcset="" />
+            <img src="images/7.webp" alt="" srcset="" />
+            <img src="images/7.webp" alt="" srcset="" />
+            <img src="images/7.webp" alt="" srcset="" />
+
+            {/* <div className="flex gap-2 ">
               <div>
                 <img src="images/7.webp" alt="" srcset="" />
                 <div className="px-4 py-6 font-semibold text-2xl ">
@@ -37,7 +43,7 @@ const Sport = () => {
                   <h1>Basketball</h1>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
