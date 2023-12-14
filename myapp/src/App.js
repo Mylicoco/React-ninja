@@ -1,12 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/Navbar';
+import Home from "./components/home";
+import WeekNews from './components/weeknews';
+import MoreGift from './components/moregift';
+import Sport from './components/sport';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <NavBar/>
+     <Home/>
+     {/* <WeekNews/> */}
+     <MoreGift/>
+     <Sport/>
+  <Footer/>
     </div>
   );
 }
